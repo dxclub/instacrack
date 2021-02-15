@@ -1,10 +1,17 @@
 <script>
-    if(!window.location.search.includes("input1=hi") && !window.location.search.includes("input2=hello")) {
+    if ((window.location.search.includes("input1=shrek") && window.location.search.includes("input2=islove"))) {
+    }
+    else {
         window.location.replace("index.html")
     }
     console.log(window.location)
 </script>
 
 <html>
-    <h1>HELLO I WORK</h1>
+    <div>
+        <h1 style="text-align: center; margin-top: 100px;">Shrek:</h1>
+        <iframe style="display: block; margin: 50px auto;" width="1120" height="630" src="https://www.youtube.com/embed/psFzJv8g6jc" frameborder="0"
+            allow="loop; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
 </html>
